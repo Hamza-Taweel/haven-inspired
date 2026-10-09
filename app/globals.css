@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+html {
+  /* Always reserve the scrollbar gutter so toggling `overflow: hidden`
+     (e.g. while the LoadingScreen plays) never changes the viewport width.
+     Without this, the scrollbar disappears during load and reappears when
+     it finishes, shifting every centered/right-aligned element — the
+     "shake" seen on reload. */
+  scrollbar-gutter: stable;
+}
+
+:root {
+  --color-primary: #000000;
+  --color-secondary: #000000;
+  --color-background: #ffffff;
+  --color-foreground: #000000;
+}
